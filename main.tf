@@ -1,8 +1,8 @@
 module "resource_group_storage" {
-  source = "dimak20/terraform-azurerm-resource_group_storage"
-  version = "1.0.0"
-  resource_group_name = "mytaskmodule-rg"
+  source                  = "dimak20/resource_group_storage/azurerm"
+  version                 = "1.0.0"
+  resource_group_name     = "mytaskmodule-rg"
   resource_group_location = "West Europe"
-  storage_account_name = "mytaskmodule-sa"
-  storage_container_name = "mytaskmodule-container"
+  storage_account_name    = "mytaskmodule-sa"
+  storage_container_name  = "mytaskmodule-container"
 }
