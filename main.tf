@@ -1,4 +1,4 @@
-module "mytaskmodule" {
+module "resource_group_storage" {
   source = "dimak20/terraform-azurerm-resource_group_storage"
   version = "1.0.0"
   resource_group_name = "mytaskmodule-rg"
